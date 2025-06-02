@@ -29,3 +29,20 @@ public:
     }
 };
 
+int main()
+{
+    seseorang *objek;
+    joko a;
+    Lia b;
+
+    objek = &a;
+    objek->pesan();
+    objek = &b;
+    objek->pesan();
+
+    //a.seseorang pesan::pesan();
+    //b. seseorang ::pesan ();
+
+    return 0;
+    
+}
